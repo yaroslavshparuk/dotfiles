@@ -61,4 +61,10 @@
       "show": "never",
     },
   },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false,
+  },
+  "cursor_blink": false,
+  "relative_line_numbers": true,
 }

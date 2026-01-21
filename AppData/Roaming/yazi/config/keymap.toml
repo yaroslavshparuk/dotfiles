@@ -1,0 +1,7 @@
+# keymap.toml
+[mgr]
+prepend_keymap = [
+    { on = [ "g", "o" ], run = "cd D:/work/Aptem.Orchard", desc = "Go to Orchard" },
+    { on = [ "g", "c" ], run = "cd D:/work/Aptem.Console", desc = "Go to Console" },
+    { on = [ "g", "a" ], run = "cd D:/work/Aptem.ActivityLogging", desc = "Go to ActivityLogging" },
+]

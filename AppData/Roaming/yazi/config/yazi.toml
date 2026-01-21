@@ -1,0 +1,23 @@
+[[plugin.prepend_fetchers]]
+id   = "mime"
+name = "*"
+run  = "mime-ext"
+prio = "high"
+
+
+[opener]
+edit = [
+    { run = 'nvim "%*"', block = true, orphan = true, for = "windows" },
+    # Alternative if you have issues:
+    # { run = 'cmd /c nvim "%*"', block = true, for = "windows" },
+]
+
+[open]
+rules = [
+    { mime = "text/*", use = "edit" },
+    { mime = "application/json", use = "edit" },
+    { name = "*.txt", use = "edit" },
+    { name = "*.md", use = "edit" },
+    { name = "*.py", use = "edit" },
+    # Add more file extensions as needed
+]

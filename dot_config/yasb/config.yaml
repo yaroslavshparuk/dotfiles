@@ -37,7 +37,6 @@ bars:
           "wifi",
           "volume",
           "battery",
-          "weather",
           "language"
         ]
 widgets:
@@ -162,7 +161,7 @@ widgets:
     options:
       label: "<span>{icon}</span> {temp}"
       label_alt: "{location}: {conditions}, Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-      api_key: "${WEATHER_API_KEY}"
+      api_key: API_KEY
       update_interval: 1200
       hide_decimal: true
       location: "Ukraine, Kyiv"

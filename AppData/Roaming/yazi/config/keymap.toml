@@ -4,4 +4,5 @@ prepend_keymap = [
     { on = [ "g", "o" ], run = "cd D:/work/Aptem.Orchard", desc = "Go to Orchard" },
     { on = [ "g", "c" ], run = "cd D:/work/Aptem.Console", desc = "Go to Console" },
     { on = [ "g", "a" ], run = "cd D:/work/Aptem.ActivityLogging", desc = "Go to ActivityLogging" },
+    { on = [ "g", "z" ], run = "cd ~/.local/share/chezmoi", desc = "Go to chezmoi" },
 ]

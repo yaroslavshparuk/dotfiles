@@ -67,4 +67,9 @@
   },
   "cursor_blink": false,
   "relative_line_numbers": true,
+  "drag_and_drop_selection": {
+    "enabled": false,
+  },
+  "seed_search_query_from_cursor": "never",
+  "auto_indent_on_paste": false,
 }

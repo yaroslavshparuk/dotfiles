@@ -7,6 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-haiku-4.5",
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+  },
   "icon_theme": "Catppuccin Mocha",
   "terminal": {
     "shell": "system",
@@ -72,4 +80,17 @@
   },
   "seed_search_query_from_cursor": "never",
   "auto_indent_on_paste": false,
+  "agent_servers": {
+    "OpenCode": {
+      "type": "custom",
+      "command": "opencode",
+      "args": ["acp"],
+    },
+  },
+  "languages": {
+    "C#": {
+      "format_on_save": "on",
+      "tab_size": 4,
+    },
+  },
 }

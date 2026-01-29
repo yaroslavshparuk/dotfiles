@@ -13,5 +13,5 @@ require("mime-ext"):setup({
 
 	-- If the mime-type is not in both filename and extension databases,
 	-- then fallback to Yazi's preset `mime` plugin, which uses `file(1)`
-	fallback_file1 = true,
+	fallback_file1 = false,
 })
